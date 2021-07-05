@@ -1,4 +1,4 @@
-# Scripts_RNA-Sequencing-Analysis
+# Scripts_RNA Sequencing Analysis
 
 * The major task's are installation of tools in the respective environment operating system.
 * The top recommendation is to install CONDA package to get easy accessiblity of the all the tools for RNA sequencing data.
