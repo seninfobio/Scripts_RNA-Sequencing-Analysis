@@ -97,9 +97,9 @@ https://github.com/trinityrnaseq/trinityrnaseq/wiki/Running-Trinity
 
 
 ```
-#--Run trinity for S. alatum datasets
+#--Run trinity for S. al datasets
 
-cd /NABIC/HOME/senthil83/analysis/004_denovo_assembly_s_alatum_rna
+cd /NABIC/HOME/senthil83/analysis/004_denovo_assembly_s_al_rna
 
 #--Create a bash file 
 
@@ -113,7 +113,7 @@ source activate trinity_env
 
 #--Create link file for input file
 
-cd /NABIC/HOME/senthil83/analysis/004_denovo_assembly_s_alatum_rna
+cd /NABIC/HOME/senthil83/analysis/004_denovo_assembly_s_al_rna
 
 ln -fs /NABIC/HOME/senthil83/datafiles/001_sesamums_rna.seq_reads/S_ala_*.fastq.gz .
 
