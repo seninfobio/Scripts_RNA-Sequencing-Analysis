@@ -429,3 +429,14 @@ heatmap(logcpm, col = colorRampPalette( rev(brewer.pal(9, "RdBu")) )(255))
 
 ```
 
+# FastQ to .fasta (conversion use to submit in NCBI-TSA)
+
+```
+gunzip -c file.fq.gz | awk '{if(NR%4==1) {printf(">%s\n",substr($0,2));} else if(NR%4==2) print;}' > file.fa
+
+```
+
+```
+seqtk seq -a in.fastq.gz > out.fasta
+
+```
